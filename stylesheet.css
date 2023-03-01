@@ -162,8 +162,34 @@ p.TWtxt{
 @media screen and (max-width:600px){
 
     .navbar{
-        height: 269px;
-        padding-bottom: 40px;
+        height: 250px;
+        padding-bottom: 0px;
+        display: inline-block
+    }
+
+   .logo{
+        font-family: 'Nigelina', sans-serif;
+        text-decoration: none;
+        font-size:69px;
+        padding-right: 69%;
+    
+    }
+
+    nav{
+        height: 60px;
+        display: flex;
+        padding-top:69px;
+        padding-left: 8%;
+        padding-right: 8%;
+        line-height: 70%;
+    }
+
+    nav ul li{
+        font-family: 'Abril Fatface Regular';
+        font-size: 20px;
+        display: inline-block;
+        color: black;
+        
     }
     
     .Mcontent{
@@ -172,17 +198,16 @@ p.TWtxt{
     }
     
     h2{
-        text-shadow: 1px 1px 2px #fcfcfc;
         color: #030303;
-        font-size: 49px;
+        font-size: 65px;
         line-height: 100%;
         padding-bottom: 15px;
     }
 
     h3{
-        color: #000000;
+        color: #d8ff2d;
         text-shadow: 1px 1px 2px #ff2008;
-        font-size: 32px;
+        font-size: 52px;
     }
 
     .Pcontent{
@@ -196,11 +221,17 @@ p.TWtxt{
         font-size: 20px;
     }
 
-    .logo{
-        font-family: 'Nigelina', sans-serif;
-        text-decoration: none;
-        font-size:69px;
-        padding-right: 30%;
+ 
+
+    .footer {
+        padding-top: 30%;
+    }
+
+    .ftext{
+        font-family: 'Abril Fatface Regular';
+        font-size: 16px;
+        line-height:30px ;
+        text-align: center;
     
     }
 }
