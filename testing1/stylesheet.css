@@ -1,0 +1,146 @@
+
+@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+
+@font-face {
+    font-family: 'Abril Fatface Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Abril Fatface Regular'), url('/Fonts/AbrilFatface-Regular.woff') format('woff');
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+body {
+
+	background: linear-gradient(45deg, #cce609, #e05061, #79e0c1, #c5ea20);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+    overflow-x: hidden;
+}
+
+/* this basically creates a big wallpaper with a big gradient, then moves it around for the animation */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar{
+    height: 320px;
+    padding-bottom: 40px;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:69px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    font-family: 'Akira Expanded', sans-serif;
+    text-decoration: none;
+    font-size: 69px;
+    line-height: 50px;
+
+}
+
+nav ul li{
+    font-family: 'Akira Expanded', sans-serif;
+    display: inline-block;
+    padding: 14px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+ 
+a:hover{
+    color: #ffffff;
+    transition: .4s;
+}
+ 
+ .Mcontent{
+    font-family:'Akira Expanded', sans-serif;
+}
+
+/*.Mimg{
+    height: 300px;
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+*/
+
+.TWtxt{
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    line-height: 100%;
+    width: 100%;
+    border-right: 3px solid;
+    white-space: nowrap;  
+    overflow: hidden;
+    animation:
+        typing 2s ,
+        cursor .4s step-end infinite alternate;
+}
+
+ @keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+ @keyframes typing{
+    from{ width :0%} 
+}
+
+.Pcontent{
+font-family: 'Akira Expanded', sans-serif;
+text-align: center;
+padding-top: 100px;
+font-size: 16px;
+ }
+
+.footer {
+    line-height: 10px;
+    padding-top: 6%;
+}
+
+.ftext{
+    font-family: 'Akira Expanded', sans-serif;
+    text-align: center;
+
+}
+
+.fimgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.fimgs{
+    width: 110px;
+    height: 100px;
+    margin: 0 10px;
+}
