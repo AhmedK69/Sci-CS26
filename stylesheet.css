@@ -64,7 +64,7 @@ nav{
 }
 
 nav ul li{
-    font-family: 'Nigelina', sans-serif;
+    font-family: 'Abril Fatface Regular';
     font-size: 26px;
     display: inline-block;
     padding: 14px;
@@ -84,6 +84,7 @@ a:hover{
  .Mcontent{
     font-family: 'Nigelina', sans-serif;
     padding-left: 14%;
+    padding-right: 45%;
 }
 
 /*.Mimg{
@@ -100,7 +101,7 @@ a:hover{
     white-space: nowrap;  
     overflow: hidden;
     animation:
-        typing 2s ,
+        typing 3s,
         cursor .4s step-end infinite alternate;
 }
 
@@ -120,15 +121,15 @@ h2{
 
 h3{
     color: #c3fb1b;
-    text-shadow: 1px 1px 2px #ff2008;
+    text-shadow: 1px 1px 2px #000000;
     font-size: 69px;
 }
 
 .Pcontent{
 padding-left: 14%;
-font-family: 'Akira Expanded', sans-serif;
+font-family: 'Nigelina', sans-serif;
 padding-top: 69px;
-font-size: 16px;
+font-size: 21px;
  }
 
 p.TWtxt{
@@ -136,13 +137,13 @@ p.TWtxt{
 }
 
 .footer {
-    padding-top: 6.9%;
+    padding-top: 10%;
 }
 
 .ftext{
-    font-family: 'Nigelina', sans-serif;
-    font-size: 20px;
-    line-height:30px ;
+    font-family: 'Abril Fatface Regular';
+    font-size: 24px;
+    line-height:40px ;
     text-align: center;
 
 }
@@ -195,6 +196,7 @@ p.TWtxt{
     .Mcontent{
         font-family: 'Nigelina', sans-serif;
         padding-left: 5%;
+        padding-right: 12%
     }
     
     h2{
@@ -206,15 +208,15 @@ p.TWtxt{
 
     h3{
         color: #d8ff2d;
-        text-shadow: 1px 1px 2px #ff2008;
+        text-shadow: 1px 1px 2px #150404;
         font-size: 52px;
     }
 
     .Pcontent{
         padding-left: 6%;
-        font-family: 'Akira Expanded', sans-serif;
+        font-family: 'Nigelina', sans-serif;
         padding-top: 30px;
-        font-size: 16px;
+        font-size: 18px;
          }
 
     p.TWtxt{
@@ -224,12 +226,12 @@ p.TWtxt{
  
 
     .footer {
-        padding-top: 30%;
+        padding-top: 40%;
     }
 
     .ftext{
         font-family: 'Abril Fatface Regular';
-        font-size: 16px;
+        font-size: 19px;
         line-height:30px ;
         text-align: center;
     
