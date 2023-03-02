@@ -64,7 +64,7 @@ nav{
 }
 
 nav ul li{
-    font-family: 'Abril Fatface Regular';
+    font-family: 'Nigelina', sans-serif;
     font-size: 26px;
     display: inline-block;
     padding: 14px;
@@ -141,7 +141,7 @@ p.TWtxt{
 }
 
 .ftext{
-    font-family: 'Abril Fatface Regular';
+    font-family: 'Nigelina', sans-serif;
     font-size: 24px;
     line-height:40px ;
     text-align: center;
@@ -230,7 +230,7 @@ p.TWtxt{
     }
 
     .ftext{
-        font-family: 'Abril Fatface Regular';
+        font-family: 'Nigelina', sans-serif;;
         font-size: 19px;
         line-height:30px ;
         text-align: center;
