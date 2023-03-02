@@ -84,7 +84,7 @@ a:hover{
  .Mcontent{
     font-family: 'Nigelina', sans-serif;
     padding-left: 14%;
-    padding-right: 45%;
+    padding-right: 40%;
 }
 
 /*.Mimg{
@@ -114,7 +114,7 @@ a:hover{
 }
 h2{
     color: #030303;
-    font-size: 160px;
+    font-size: 190px;
     line-height: 94%;
     padding-bottom: 30px;
 }
@@ -137,7 +137,7 @@ p.TWtxt{
 }
 
 .footer {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .ftext{
