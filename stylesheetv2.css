@@ -1,0 +1,295 @@
+
+@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+@import url('https://fonts.cdnfonts.com/css/nigelina-95312');
+@font-face {
+    font-family: 'Abril Fatface Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Abril Fatface Regular'), url('/Fonts/AbrilFatface-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Unity Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unity Sans Regular'), url('/Fonts/Unity-Sans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Unity Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unity Sans Medium'), url('/Fonts/Unity-Sans-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Unity Sans Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Unity Sans Semibold'), url('/Fonts/Unity-Sans-SemiBold.woff2') format('woff2');
+}
+
+*{
+    box-sizing: border-box;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+body {
+
+	background: linear-gradient(45deg,#a20a11,#ba8141, #d88af7);
+	background-size: 400% 400%;
+	animation: gradient 20s ease infinite;
+	height: 100vh;
+}
+
+/* this basically creates a big wallpaper with a big gradient, then moves it around for the animation */
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar{
+    height: 100px;
+    padding-bottom: 40px;
+    background-color: #252525;
+    opacity: 0.9;
+}
+
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    font-family: 'Unity Sans Medium';
+    text-decoration: none;
+    font-size: 69px;
+    line-height: 50px;
+
+}
+
+nav ul li{
+    font-family: 'Unity Sans Medium';
+    font-size: 26px;
+    display: inline-block;
+    padding: 14px;
+}
+
+a {
+    opacity: 1;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+a:hover{
+    color: #d1ee2f;
+    transition: .4s;
+}
+
+.Mcontent{
+    padding-top: 8%;
+    font-family: 'Unity Sans Medium';
+    padding-left: 14%;
+    padding-right: 25%;
+}
+
+/* adding image next to main/hero content */
+
+/*.Mimg{
+    height: 300px;
+    width: 300px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+*/
+
+/* typewriter animation in css, easy actually but buggy fsh5 using yoinked js instead */
+
+/*
+.TWtxt{
+    width: 100%;
+    border-right: 3px solid;
+    white-space: nowrap;  
+    overflow: hidden;
+    animation:
+        typing 3s,
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+@keyframes typing{
+    from{ width :0%} 
+}
+*/
+h2{
+    color: #030303;
+    font-size: 170px;
+    line-height: 94%;
+    padding-bottom: 30px;
+}
+
+h3{
+    color: #ffffff;
+    font-size: 69px;
+    animation:
+        fadeIn 4.6s;
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.Pcontent{
+padding-left: 14%;
+padding-right: 14%;
+font-family: 'Unity Sans Regular';
+padding-top: 69px;
+font-size: 21px;
+}
+
+p.TWtxt{
+    font-size: 30px;
+}
+
+.footer {
+    padding-top: 5%;
+}
+
+.ftext{
+    font-family: 'Unity Sans Regular';
+    font-size: 21px;
+    line-height:40px ;
+    text-align: center;
+
+}
+
+.fimgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+    .fimgs{
+        width: 110px;
+        height: 100px;
+        margin: 0 10px;
+}
+
+@media screen and (max-width:983px){
+
+    body {
+        background-size: 600% 600%;
+        background-repeat: no-repeat;
+        animation: gradient 20s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+
+    .navbar{
+        padding-top: 25px;
+        background: black;
+        opacity: 80%;
+        height: 115px;
+        padding-bottom: 18px;
+        display: block;
+    }
+
+    .logo{
+        font-family: 'Unity Sans Medium';
+        text-decoration: none;
+        font-size:69px;
+        padding-right: 69%;
+    
+    }
+
+    nav{
+        height: 60px;
+        display: inline-flex;
+        padding-right: 8%;
+        padding-left: 8%;
+        line-height: 40%;
+    }
+
+    nav ul li{
+        padding-right:25px;
+        font-family: 'Unity Sans Medium';
+        font-size: 18px;
+        display: flex;
+        color: black;
+        
+    }
+    
+    .Mcontent{
+        font-family: 'Unity Sans Medium';
+        padding-left: 5%;
+        padding-right: 5%
+    }
+    
+    h2{
+        color: #030303;
+        font-size: 73px;
+        line-height: 100%;
+        padding-top: 18%;
+        padding-bottom: 15px;
+    }
+
+    h3{
+        color: #d1ee2f;
+        font-size: 50px;
+    }
+
+    .Pcontent{
+        text-align:center;
+        color:white;
+        padding-left: 6%;
+        padding-right: 6%;
+        font-family: 'Unity Sans Semibold';
+        padding-top: 45px;
+        font-size: 13px;
+    }
+
+    .footer {
+        padding-top: 60%;
+    }
+
+    .ftext{
+        font-family: 'Unity Sans Regular';
+        font-size: 15px;
+        line-height:30px ;
+        text-align: center;
+    
+    }
+}
