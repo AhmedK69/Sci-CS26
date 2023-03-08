@@ -1,42 +1,77 @@
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
-    <title> ASU Science - CS26 (Alpha)  </title>
+    <title> ASU Science - CS26 (Alpha) </title>
     <link rel="icon" type="image/x-icon" href="https://github.com/AhmedK69/Sci-CS26/blob/main/Images/redbhash.png?raw=true">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheetv2.css" />
 </head>
 
 <body>
 
 <div class="navbar">
-    <nav>
-        <a class="logo" href="#"> <h1 class="logo">cs+</h1> </a>
-            <ul>
-                <li><a target="_blank" href="https://drive.google.com/drive/u/1/folders/1fMuglxd8RC4O-KugTORePgNSKBptoM-F">Drive</a></li>
-                <li><a target="_blank" href="https://linktr.ee/asusci.cs26">Links</a></li>
-                <li><a target="_blank" href="https://github.com/AhmedK69/Sci-CS26">Source</a></li>
-            </ul>
-    </nav>
-</div>
+        <nav>
+            <a class="logo" href="#"> <h1 class="logo">CS+</h1> </a>
+                <ul>
+                    <li><a target="_blank" href=#>Schedule</a></li>
+                    <li><a target="_blank" href="https://drive.google.com/drive/u/1/folders/1fMuglxd8RC4O-KugTORePgNSKBptoM-F">Drive</a></li>
+                    <li><a target="_blank" href="https://linktr.ee/asusci.cs26">Links</a></li>
+                    <li><a target="_blank" href="https://github.com/AhmedK69/Sci-CS26">Source</a></li>
+                </ul>
+        </nav>
+    </div>
+
+    	<!-- HTML element where the text will be displayed --> 
 
 <div class="Mcontent">
-    <h2 class="TWtxt">ASU Science <br> CS Program</h2>
-    <h3 class="TWtxt">Portal Page</span></h3>
+    <h2 id="typewriter"></h2>
+    <h3>Portal page</h3>
 </div>
+        
+
+<script>
+// Get the text to be typed out
+var text = "ASU Science \n CS Program";
+
+// to change the empty html element (h2 - with id typewriter)
+var typewriter = document.getElementById("typewriter");
+
+// Set the initial text (i already left it blank)
+typewriter.innerHTML = "";
+
+// Set a counter variable
+var i = 0;
+
+// Define the function to type out the text
+function type() {
+    if (i < text.length) {
+        // Add the next character to the text
+        typewriter.innerHTML += text.charAt(i);
+        i++;
+
+        // Call the function again after a certain amount of time
+        setTimeout(type, 69);
+    }
+}
+
+// Calls the function to start the typewriter effect
+type();
+</script>
 
 <div class="Pcontent">
-    <p> ✾ Alpha Version, Limited Functionality </p>
+
 </div>
- 
+
 <div class="footer">
-    <p class="ftext">🔨⌛</p>
-<!--  <div class="fimgcontainer"> 
-            <img src="#" class="fimgs"> 
- Add images/logos / whatever above this is best used for socials-->
-    </div>
+    <p class="ftext"> ✾ Alpha Version, Limited Functionality<BR>🔨⌛</p>
+    
+<!--  <div class="fimgcontainer">   
+    <img src="#" class="fimgs">
+</div>
+Add images/logos / whatever above this is best used for socials-->
+
 </div>
 
 </body>
